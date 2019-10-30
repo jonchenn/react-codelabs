@@ -1,0 +1,59 @@
+#list-container {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0 10px;
+}
+
+#list-container form {
+  margin: auto;
+  width: 100%;
+}
+
+#list-container input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+#list-container input[type=submit] {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+  width: 20%;
+}
+
+.item-list {
+  padding: 0 10px;
+}
+
+.item-list li {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+  text-align: left;
+  list-style: none;
+  margin: 10px;
+  padding: 10px 10px 10px 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.close-btn {
+  display: block;
+  background: #ddd;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+
+
+#oov {
+  margin-top: 600px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
