@@ -13,6 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "build-sw": "node ./src/sw-build.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -29,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "workbox-build": "^5.1.3"
   }
 }
